@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&display=swap');
+
+body{
+    font-family: 'Cairo', sans-serif;
+    background-color: rgb(143, 25, 25);
+}
+header .continer{
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.continer img{
+    width: 55%;
+    position: relative;
+    padding: 20px 15px;
+    margin: 40px 20px;
+    background-color: ghostwhite;
+    border-left: 64px solid black;
+    border-right: 64px solid black;
+    border-radius: 20px;
+    left: -14%;
+}
+.continer img:hover{
+    box-shadow: 20px black;
+}
+.scrapt{
+    display: grid;
+    position: relative;
+    padding: 30px 50px;
+    margin: 20px 10px
+}
+.scrapt h4{
+    
+    /* display: contents; */
+    /* position: fixed; */
+    /* justify-content: center; */
+    font-size: 40px;
+    color: honeydew;
+    padding: 22px 31%;
+    margin: 5px;
+    /* left: 10%; */
+    background-color: darkblue;
+    border-radius: 20px;
+}
+.scrapt p{
+    font-size: 35px;
+    padding: 2px 43%;
+    color: gold;
+    font-weight: 900;
+}
+.scrapt span{
+    font-size: 30px;
+    color: wheat;
+    font-weight: 900;
+    padding: 0 33%;
+    margin: 0 0px;
+}
+.btn-pay{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 10px 20px;
+}
+.btn-pay .btn-position{
+
+}
+.btn-position button{
+    margin: 15px 10px;
+    /* text-decoration: none; */
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    color: red;
+    cursor: pointer;
+}
+.btn-pay button a{
+    padding: 5px 5px;
+    margin: 15px 20px;
+    align-items: center;
+    text-decoration: none;
+    color: black
+}
